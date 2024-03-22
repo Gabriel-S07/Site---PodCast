@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <header><img src="imagens/GabsCast (100 x 70 px) (1).png" alt=""></header> -->
+    <section>
+        <section id="midia">
+            <div id="fotoMidia">
+                <div id="video">
+                </div>
+                <div id="controles"></div>
+            </div>
+        </section>
+        <article id="rolagem">
+            <article>
+                <div class="eps um"></div>
+                <div class="eps um"></div>
+                <div class="eps um"></div>
+                <div class="eps um"></div>
+                <div class="eps um"></div>
+                <div class="eps um"></div>
+            </article>
+            <div id="controlesMobile">
+                <div class="fotinha">
+                </div>
+                <div class="textosNomes">
+                    <p class="titulo">GabsCast - Melhor podCast da geração</p>
+                    <div class="controles">
+                        <img src="imagens/Group 1 (1).svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section id="telaMidiaMobile" class="naoMostrar animate__animated animate__slideInUp">
+            <div id="midiaMobile"></div>
+            <div class="controles telaMobile">
+                <img src="imagens/Group 1 (1).svg" alt="">
+            </div>
+        </section>
+    </section>
+    
+    
+</body>
+<script>
+    const botaoMidiaMobile = document.querySelector("#controlesMobile")
+    const telaTodaMidiaMobile = document.querySelector("#telaMidiaMobile")
+    botaoMidiaMobile.addEventListener("click", function(){
+        telaTodaMidiaMobile.style.display = "flex"
+    })
+</script>
+</html>

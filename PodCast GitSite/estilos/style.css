@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    overflow: hidden;
+    background-image: url(../imagens/GabsCast.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    height: 70px;
+    width: 100px;
+    display: flex;
+    align-items: start;
+} */
+
+section{
+    display: flex;
+    align-items: end;
+}
+
+#midia{
+    width: 65%;
+    height: 100vh;
+}
+
+#video{
+    width: 90%;
+    height: 70%;
+    background-color: #190B24;
+    margin-top: 5%;
+    border-radius: 50px;
+
+    background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fotoMidia{
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 95%;
+    width: 100%;
+    border-top-right-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#controles{
+    width: 100%;
+    height: 20%;
+    background-color: #190B24;
+    border-top-right-radius: 100px;
+}
+
+#rolagem{
+    overflow-y: scroll;
+    max-height: 100vh;
+    width: 35%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.eps{
+    background-color: #190B24;
+    height: 230px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eps img, #video img{
+    height: 100%;
+    width: 100%;
+}
+
+#telaMidiaMobile, #controlesMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #midia{
+        display: none;
+    }
+
+    #rolagem{
+        width: 100%;
+    }
+
+    #controlesMobile{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
+
+        width: 100%;
+        height: 110px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-top-right-radius: 25px;
+        transition: 2s;
+        padding: 0 10px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #telaMidiaMobile{
+        width: 100%;
+        height: 90vh;
+        transition: 2s;
+        position: fixed;
+        display: none;
+
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+        align-items: start;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .fotinha{
+        height: 70%;
+        width: 120px;
+
+        background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fotinha img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .textosNomes{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .textosNomes img{
+        width: 100px;
+    }
+    .controles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .telaMobile{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .telaMobile img{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #midiaMobile{
+        height: 400px;
+        width: 100%;
+
+        background-color: #190B24;
+        border-radius: 20px;
+        background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
