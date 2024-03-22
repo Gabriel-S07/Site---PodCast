@@ -133,12 +133,12 @@ article{
 
     #telaMidiaMobile{
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         transition: 2s;
         position: fixed;
         display: none;
 
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+        background-color: #190B24;
         backdrop-filter: blur(20px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -195,10 +195,21 @@ article{
         height: 400px;
         width: 100%;
 
-        background-color: #190B24;
+        background-color: #6e08bc;
         border-radius: 20px;
         background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
         background-position: center;
         background-repeat: no-repeat;
+    }
+
+    .headerMobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .centralizarTitulo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
