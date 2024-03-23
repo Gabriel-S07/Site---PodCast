@@ -156,7 +156,8 @@ article{
 
     .fotinha{
         height: 70%;
-        width: 120px;
+        width: 80px;
+        background-color: #6e08bc;
 
         background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
         background-position: center;
@@ -168,13 +169,20 @@ article{
         width: 100%;
     }
 
-    .textosNomes{
+    .parteMidia{
         height: 70%;
         display: flex;
         flex-direction: column;
         padding: 10px;
         gap: 10px;
+        white-space: nowrap;
     }
+
+    .parteMidia p {
+        font-size: 15px;
+    }
+
+
 
     .textosNomes img{
         width: 100px;
