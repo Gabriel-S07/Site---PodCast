@@ -181,7 +181,7 @@ article{
     .imgText{
         display: flex;
         align-items: center;
-        gap: 3px;
+        gap: 6px;
     }
 
     .imgText img{
