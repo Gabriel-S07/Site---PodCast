@@ -6,6 +6,12 @@
     color: #fff;
 }
 
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     overflow: hidden;
     background-image: url(../imagens/GabsCast.svg);
