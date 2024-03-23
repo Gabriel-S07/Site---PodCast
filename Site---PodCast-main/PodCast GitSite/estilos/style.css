@@ -201,30 +201,31 @@ article{
     .controles{
         display: flex;
         justify-content: center;
-        align-items: center;
-        gap: 35px;
+        gap: 60px;
+        margin-top: 5%;
     }
 
-    .controles img{
+    .coração img{
         width: 35px;
         height: 35px;
     }
 
     .telaMobile{
         width: 100%;
-        margin-top: 50px;
+        height: 200px;
     }
 
     .telaMobile img{
-        height: 50px;
+        height: 35%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     #midiaMobile{
-        height: 400px;
+        height: 350px;
         width: 100%;
+        margin-top: 25%;
 
         background-color: #6e08bc;
         border-radius: 20px;
@@ -242,5 +243,24 @@ article{
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+
+    .tituloTelaCheia{
+        margin-top: 15%;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .seprarTextoTelaCheia{
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .seprarTextoTelaCheia .titulo{
+        font-size: 20px;
     }
 }
