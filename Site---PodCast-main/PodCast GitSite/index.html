@@ -81,10 +81,12 @@
 <script>
     const botaoMidiaMobile = document.querySelector("#controlesMobile")
     const telaTodaMidiaMobile = document.querySelector("#telaMidiaMobile")
+    const divEps = document.querySelector(".eps")
     const botaoFecharMobile = document.querySelector(".material-symbols-outlined")
 
     botaoMidiaMobile.addEventListener("click", function(){
         telaTodaMidiaMobile.style.display = "flex"
+        divEps.classList.add("escondido")
     })
 
     botaoFecharMobile.addEventListener("click", function(){
