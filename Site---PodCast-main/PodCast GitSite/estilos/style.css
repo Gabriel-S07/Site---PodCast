@@ -144,22 +144,14 @@ article{
         position: fixed;
         display: none;
 
-        background-image: url(../imagens/FundoAmarelo.svg);
-        background-repeat: no-repeat;
-        background-size: cover;        
-        backdrop-filter: blur(100px);
-        -webkit-backdrop-filter: blur(100px);
-        border-radius: 20px;
+        background-color: #F57A04;
+        backdrop-filter: blur(20px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
         align-items: start;
         padding: 20px;
         flex-direction: column;
-    }
-
-    .escondido{
-        display: none;
     }
 
     .fotinha{
