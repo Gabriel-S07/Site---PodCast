@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 
 body{
     overflow: hidden;
-    background-image: url(../imagens/GabsCast.svg);
+    background-image: url(../imagens/FundoAmarelo.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -119,7 +119,7 @@ article{
     }
 
     #controlesMobile{
-        background-color: #190B24;
+        background-color: #ffb168;
         backdrop-filter: blur(20px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
@@ -144,7 +144,7 @@ article{
         position: fixed;
         display: none;
 
-        background-color: #190B24;
+        background-color: #ffb168;
         backdrop-filter: blur(20px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
