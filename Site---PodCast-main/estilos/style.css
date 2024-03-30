@@ -172,7 +172,11 @@ article{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+.fotinha, .fotinha img{
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px) {
     #midia{
         display: none;
     }
@@ -217,8 +221,8 @@ article{
     }
 
     .fotinha{
-        height: 70%;
-        width: 20%;
+        height: 45px;
+        width: 90px;
 
         background-position: center;
         background-repeat: no-repeat;
@@ -342,6 +346,381 @@ article{
     }
 
     .ultimo{
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .ultimo{
+        margin-bottom: 15%;
+    }
+
+    #midia{
+        display: none;
+    }
+
+    .tituloEp p {
+        font-size: 12px;
+        color: #000;
+    }
+
+    #rolagem{
+        width: 100%;
+    }
+
+    #controlesMobile{
+        background-color: #ffdc42;
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
+
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-top-right-radius: 25px;
+        transition: 2s;
+        padding: 0 10px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #telaMidiaMobile{
+        width: 100%;
+        height: 100vh;
+        transition: 2s;
+        position: fixed;
+        display: none;
+
+        background-image: url(../imagens/FundoAmareloMobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        align-items: start;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .fotinha{
+        height: 40px;
+        width: 85px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fotinha img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .parteMidia{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        padding: 7px;
+
+        justify-content: space-between;
+    }
+
+    .imgText{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .imgText img{
+        height: 15px;
+        width: 15px;
+    }
+
+    .separarTitulo{
+        white-space: nowrap;
+        max-width: 70%;
+        font-size: 13px;
+    }
+
+    .textosNomes img{
+        width: 100px;
+    }
+    .controles{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 5%;
+    }
+
+    .coração img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .telaMobile{
+        width: 100%;
+        height: 200px;
+    }
+
+    .telaMobile img{
+        height: 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #midiaMobile{
+        height: 230px;
+        width: 100%;
+        margin-top: 25%;
+
+        background-color: #6e08bc;
+        border-radius: 20px;
+        background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #midiaMobile img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .headerMobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .centralizarTitulo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .tituloTelaCheia{
+        margin-top: 15%;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .seprarTextoTelaCheia{
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .seprarTextoTelaCheia .titulo{
+        font-size: 16px;
+    }
+
+    .eps{
+        height: 180px;
+        width: 250px;
+    }
+
+    #pauseMobile{
+        display: block;
+    }
+    #playMobile{
+        display: none;
+    }
+
+    .ultimo{
         margin-bottom: 60px;
     }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .ultimo{
+        margin-bottom: 15%;
+    }
+
+    #midia{
+        display: none;
+    }
+
+    .tituloEp p {
+        font-size: 20px;
+        color: #000;
+    }
+
+    #rolagem{
+        width: 100%;
+    }
+
+    #controlesMobile{
+        background-color: #ffdc42;
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
+
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-top-right-radius: 25px;
+        transition: 2s;
+        padding: 0 10px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #telaMidiaMobile{
+        width: 100%;
+        height: 100vh;
+        transition: 2s;
+        position: fixed;
+        display: none;
+
+        background-image: url(../imagens/FundoAmareloMobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        align-items: start;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .fotinha{
+        height: 70%;
+        width: 20%;
+
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fotinha img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .parteMidia{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        padding: 7px;
+
+        justify-content: space-between;
+    }
+
+    .imgText{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .imgText img{
+        height: 15px;
+        width: 15px;
+    }
+
+    .separarTitulo{
+        white-space: nowrap;
+        max-width: 70%;
+        font-size: 23px;
+    }
+
+    .textosNomes img{
+        width: 100px;
+    }
+    .controles{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 5%;
+    }
+
+    .coração img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .telaMobile{
+        width: 100%;
+        height: 200px;
+    }
+
+    .telaMobile img{
+        height: 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgText img {
+        height: 23px;
+        width: 23px;
+    }
+
+    #midiaMobile{
+        height: 230px;
+        width: 100%;
+        margin-top: 25%;
+
+        background-color: #6e08bc;
+        border-radius: 20px;
+        background-image: url(../imagens/GabsCast\ \(100\ x\ 70\ px\)\ \(2\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #midiaMobile img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .headerMobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .centralizarTitulo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .tituloTelaCheia{
+        margin-top: 15%;
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .seprarTextoTelaCheia{
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .seprarTextoTelaCheia .titulo{
+        font-size: 16px;
+    }
+
+    .eps{
+        height: 350px;
+        width: 500px;
+    }
+
+    #pauseMobile{
+        display: block;
+    }
+    #playMobile{
+        display: none;
+    }
+
+    .ultimo{
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1680px) {
+
 }

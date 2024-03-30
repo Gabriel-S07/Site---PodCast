@@ -30,7 +30,18 @@ let epAtual = "1"
 for(let i = 0; i < listaEps.length; i++)
 {
     let epClicado = listaEps[i]
+
+    console.log(i);
+
     epClicado.addEventListener("click", function(){
+        
+        if(listaEps[epAtual - 1].classList.contains("assistindo"))
+        {
+            listaEps[epAtual - 1].classList.remove("assistindo")
+        }
+       
+        epClicado.classList.add("assistindo")
+
         tituloClicado = epClicado.getAttribute("title")
         codigoClicado = epClicado.getAttribute("ep")
         epAtual = epClicado.getAttribute("cd")
