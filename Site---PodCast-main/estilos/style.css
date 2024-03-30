@@ -346,13 +346,13 @@ article{
     }
 
     .ultimo{
-        margin-bottom: 50%;
+        margin-bottom: 90px;
     }
 }
 
 @media only screen and (max-width: 350px) {
     .ultimo{
-        margin-bottom: 50%;
+        margin-bottom: 90px;
     }
 
     #midia{
@@ -535,7 +535,7 @@ article{
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .ultimo{
-        margin-bottom: 50%;
+        margin-bottom: 130px;
     }
 
     #midia{
